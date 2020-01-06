@@ -28,5 +28,9 @@ Credit to amakuu for the payout functions and the structure of the client side l
 Jan. 6 UPDATE
 
 -Job now spwans a cart to used on the delivery
+
 -Valintine job location moved to post office
+
 -Valintine delivery is now to Bachuss Station
+
+-No longer need to relog to do another delivery, thank you CallMeNC for the feed back.
