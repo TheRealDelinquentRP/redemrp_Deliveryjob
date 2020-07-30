@@ -1,50 +1,54 @@
 Config = {}
 
 --Blips
-Config.MainSprite = 486881925 -- Job Blip sprite
-Config.DeliverySprite = -570710357 -- Point Sprite
+Config.MainSprite = 688589278 -- Job Blip sprite
+Config.DeliverySprite = -1595467349 -- Point Sprite
 Config.ShowBlips = true -- Show Point blips
 
+--Buttons
+Config.DeliveryButton = 0xD9D0E1C0 --Space
+Config.JobButton = 0xD9D0E1C0 --Space
+
 --Messages
-Config.Deliver = "Press (F) to make a delivery" -- Start Gathering Message
+Config.Deliver = "Press ~INPUT_JUMP~ to make delivery" -- Start Gathering Message
 
 --Timer and zone size
 Config.ZoneSize = 2.0 -- Sizes of the zones
 
 --Point specifics
 
---Valentine to Bacchus Station
-Config.MainJob1 = {x=-179.51,y=627.02,z=114.09} -- Job1 Position Valentine
-Config.Point1 = {x=570.52,y=1676.26,z=186.48} -- Point 1 location Bacchus Station
-Config.Cart1 = {x=-179.88,y=653.84,z=113.67,h=69.1} -- Cart spawn point
-Config.StartWorking1 = "Press (E) to take supplies to Bacchus Station." -- Start Working Message
-Config.Cash1 = 5 -- Cash payout
-Config.Exp1 = 2 -- EXP payout
-Config.Gold1 = 1 -- Gold payout
+--Oil Fileds to Saint Denis
+Config.MainJob1 = {x=544.06,y=588.54,z=110.09} -- Job1 Position Oil Fileds
+Config.Point1 = {x=2343.37,y=-1444.15,z=45.52} -- Point 1 location Saint Denis
+Config.Cart1 = {x=538.68,y=601.97,z=108.64,h=116.77} -- Cart spawn point
+Config.StartWorking1 = "Press ~INPUT_JUMP~ to take Oil to the refinery in Saint Denis." -- Start Working Message
+Config.Cash1 = 8.5 -- Cash payout
+Config.EXP1 = 2 -- EXP payout
+Config.Gold1 = 0.5 -- Gold payout
 
---Annesburg to Emerald Ranch
-Config.MainJob2 = {x=2939.25,y=1288.65,z=44.65} -- Job2 Position Annesburg
-Config.Point2 = {x=1420.15,y=383.93,z=90.33} -- Point 2 location Emerald Ranch
-Config.StartWorking2 = "Press (E) to take supplies to Emerald Ranch." -- Start Working Message
-Config.Cart2 = {x=2923.16,y=1291.9,z=44.39,h=154.38} -- Cart spawn point
-Config.Cash2 = 8 -- Cash payout
-Config.Exp2 = 2 -- EXP payout
-Config.Gold2 = 0 -- Gold payout
+--Valentine to Wallace Station
+Config.MainJob2 = {x=-179.94,y=626.87,z=114.09} -- Job2 Position Valentine
+Config.Point2 = {x=-1311.12,y=385.71,z=95.70} -- Point 2 location Wallace Station
+Config.StartWorking2 = "Press ~INPUT_JUMP~ to take supplies to Wallace Station." -- Start Working Message
+Config.Cart2 = {x=-185.82,y=649.83,z=112.72,h=61.97} -- Cart spawn point
+Config.Cash2 = 7.75 -- Cash payout
+Config.EXP2 = 2 -- EXP payout
+Config.Gold2 = 0.5 -- Gold payout
 
---Blackwater to Strawberry
-Config.MainJob3 = {x=-778.33,y=-1323.44,z=43.88} -- Job3 Position Blackwater
-Config.Point3 = {x=-1792.18,y=-391.68,z=160.26} -- Point 3 location Strawberry
-Config.Cart3 = {x=-772.48,y=-1330.84,z=43.64,h=92.45} -- Cart spawn point
-Config.StartWorking3 = "Press (E) to take supplies to Strawberry." -- Start Working Message
-Config.Cash3 = 7 -- Cash payout
-Config.Exp3 = 2 -- EXP payout
-Config.Gold3 = 0 -- Gold payout
+--Blackwater to MacFarland Ranch
+Config.MainJob3 = {x=-732.8,y=-1221.9,z=44.73} -- Job3 Position Blackwater
+Config.Point3 = {x=-2342.75,y=-2396.24,z=62.37} -- Point 3 location MacFarlandRanch
+Config.Cart3 = {x=-760.18,y=-1239.44,z=42.7,h=246.13} -- Cart spawn point
+Config.StartWorking3 = "Press ~INPUT_JUMP~ to take supplies to MacFarland Ranch." -- Start Working Message
+Config.Cash3 = 6.75 -- Cash payout
+Config.EXP3 = 2 -- EXP payout
+Config.Gold3 = 0.25 -- Gold payout
 
---MacFarland Ranch to Armadillo
-Config.MainJob4 = {x=-2324.89,y=-2406.17,z=63.85} -- Job4 Position MacFarland
-Config.Point4 = {x=-3686.81,y=-2627.33,z=-13.43} -- Point 4 location Armadillo
-Config.Cart4 = {x=-2342.75,y=-2396.24,z=62.37,h=140.24} -- Cart spawn point
-Config.StartWorking4 = "Press (E) to take supplies to Armadillo." -- Start Working Message
-Config.Cash4 = 10 -- Cash payout
-Config.Exp4 = 3 -- EXP payout
-Config.Gold4 = 2 -- Gold payout
+--Braithwaite farm to Saint Denis
+Config.MainJob4 = {x=1087.4,y=-1726.79,z=50.08} -- Job4 Position MacFarland
+Config.Point4 = {x=2809.39,y=-1336.79,z=46.25} -- Point 4 location Armadillo
+Config.Cart4 = {x=1071.71,y=-1708.79,z=48.12,h=0.0} -- Cart spawn point
+Config.StartWorking4 = "Press ~INPUT_JUMP~ to take produce to Saint Denis." -- Start Working Message
+Config.Cash4 = 5.5 -- Cash payout
+Config.EXP4 = 2 -- EXP payout
+Config.Gold4 = 0.25 -- Gold payout
