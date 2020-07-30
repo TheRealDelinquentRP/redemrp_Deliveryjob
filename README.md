@@ -42,3 +42,5 @@ July 30 UPDATE
 -Each delivery has a unique cart or wagon with cargo
 
 -Some other cosmetic polish has also been added
+
+-All of the controls for the job are now Space Bar
