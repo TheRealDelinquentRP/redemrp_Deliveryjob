@@ -34,3 +34,11 @@ Jan. 6 UPDATE
 -Valintine delivery is now to Bachuss Station
 
 -No longer need to relog to do another delivery, thank you CallMeNC for the feed back.
+
+July 30 UPDATE
+
+-Some locations have moved
+
+-Each delivery has a unique cart or wagon with cargo
+
+-Some other cosmetic polish has also been added
