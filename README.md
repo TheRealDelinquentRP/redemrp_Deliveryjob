@@ -44,3 +44,7 @@ July 30 UPDATE
 -Some other cosmetic polish has also been added
 
 -All of the controls for the job are now Space Bar
+
+August 17 UPDATE
+
+-Adjusted cart spawns, they should be spawning on the ground now
